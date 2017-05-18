@@ -3,10 +3,38 @@
     <title>
         This is my first website
     </title>
+    <link href = "bootstrap/css/bootstrap.css" rel = "stylesheet">
+    <script src = "scripts/jquery-3.2.1.min.js"> </script>
+    <script src = "bootstrap/js/bootstrap.js"></script>
 </head>
 <body style="background-color:grey">
-    <h1 style="color:lightblue">Hello, My name is Gaurav Jha.</h1>
-    <p style="background-color:green;color:yellow">I am a student of Computer Science and Engineering at Harcourt Butler Technical University </p>
+   <nav class="navbar navbar-inverse">
+        <div class = "container">
+            <div class = "navbar-header">
+                <a href = "#" class = "navbar-brand" >
+                    BRAND
+                </a>
+            </div>
+            <ul class = "nav navbar-nav  navbar-right">
+                <li> <a href = "#"> Link1 </a> </li>
+                <li> <a href = "#"> Link2 </a> </li>
+                <li> <a href = "#"> Link3 </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "container">
+        <div class = "row">
+            <div class =  "col-sm-4">
+                <img src = "penguins.jpg" class = "img-responsive"/>
+            </div>
+            <div class = "col-sm-8">
+                    <h1 style="color:lightblue">Hello, My name is Gaurav Jha.</h1>
+                    <p style="background-color:green;color:yellow">I am a student of Computer Science and Engineering at Harcourt Butler Technical University </p>
+                    Wanna go the second page of the site.<a href="secondpage.html">Click here</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
     
